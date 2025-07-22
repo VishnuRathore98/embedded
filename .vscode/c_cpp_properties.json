@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        },
+        {
+            "name": "avr",
+            "includePath": [
+                "/usr/lib/avr/include/avr"
+            ],
+                  "compilerPath": "/usr/bin/avr-gcc",
+                    "cStandard": "c17",
+                    "cppStandard": "gnu++17",
+                    "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
