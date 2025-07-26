@@ -5,6 +5,7 @@ int main(void)
 {
     // Set pin 13 (PORTB5) as output
     DDRB = (DDRB) | (1 << DDB5); 
+    PB5
     
     while (1)
     {
